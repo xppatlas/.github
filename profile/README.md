@@ -1,12 +1,18 @@
-## Hi there 👋
+# XppAtlas
 
-<!--
+**Your AI coding agent, finally fluent in your X++.**
 
-**Here are some ideas to get you started:**
+XppAtlas is an on-prem knowledge platform and MCP server that indexes your entire
+Microsoft Dynamics 365 Finance & Operations codebase — standard, ISV, and custom
+X++ — and serves it to AI agents (Claude Code, GitHub Copilot, any MCP client).
+**Your code never leaves your network.**
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+General code tools see XML blobs. XppAtlas understands D365 — tables, forms, data
+entities, security, Chain-of-Command extensions, and how they reference each
+other — so your agent verifies symbols and grounds its answers instead of guessing.
+
+### Open core
+**[`xppatlas`](https://github.com/xppatlas/xppatlas)** — client + shared core, Apache-2.0: indexer, hybrid retrieval, MCP server, intelligence layers.
+
+### Learn more
+🌐 [xppatlas.com](https://xppatlas.com) · ✉️ hello@xppatlas.com
